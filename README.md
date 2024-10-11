@@ -8,4 +8,4 @@ Each map was later on processed into Deep Zoom Image (DZI) format using [libvips
 
 The result is a set of high-resolution, interactive maps that tell their own stories through the details they reveal.
 
-This is an ongoing effort, but for a preview, take a _deep_ look [here]()!
+This is an ongoing effort, but for a preview, take a _deep_ look [here](https://valteriomon.github.io/zoom-in/)!
