@@ -6,6 +6,6 @@ Inspired by the work of [Matthew Petroff](https://mpetroff.net/2013/09/scanner-m
 
 Each map was later on processed into Deep Zoom Image (DZI) format using [libvips](https://www.libvips.org/) and presented on a website with the help of the [OpenseaDragon](https://openseadragon.github.io/) viewer.
 
-The result is a set of high-resolution, interactive maps that tell their own stories through the details they reveal.
+The final result is a set of high-resolution, interactive maps that tell their own stories through the details they reveal.
 
 This is an ongoing effort, but for a preview, take a _deep_ look [here]()!
