@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zoom-in!</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="lib/bulma/bulma.min.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <script src="lib/openseadragon/openseadragon.js"></script>
+</head>
+<body>
+    <div class="container-flex">
+        <div class="fixed-row p-4">
+            <h1 class="title">
+                <span class="has-text-primary">Zoom-in:</span> <span id="map-title"></span>
+            </h1>
+        </div>
+        <div class="fill-row">
+            <div id="reference-strip"></div>
+            <div id="maps-viewer"></div>
+        </div>
+    </div>
+    <div id="overlays" class="is-hidden">
+        <div id="africa-overlay">
+            <div class="is-size-6">Scans: <strong>12</strong></div>
+            <div class="is-size-6">Width: <strong>10.140 px</strong></div>
+            <div class="is-size-6">Height: <strong>9.307 px</strong></div>
+            <div class="is-size-6">Total resolution: <strong>94.37 Megapixels</strong></div>
+        </div>
+        <div id="roman-overlay">
+            <div class="is-size-6">Scans: <strong>16</strong></div>
+            <div class="is-size-6">Width: <strong>13.023 px</strong></div>
+            <div class="is-size-6">Height: <strong>8.382 px</strong></div>
+            <div class="is-size-6">Total resolution: <strong>109.16 Megapixels</strong></div>
+        </div>
+        <div id="rivers-overlay">
+            <div class="is-size-6">Scans: <strong>16</strong></div>
+            <div class="is-size-6">Width: <strong>13.100 px</strong></div>
+            <div class="is-size-6">Height: <strong>8.200 px</strong></div>
+            <div class="is-size-6">Total resolution: <strong>107.42 Megapixels</strong></div>
+        </div>
+        <div id="europe-overlay">
+            <div class="is-size-6">Scans: <strong>12</strong></div>
+            <div class="is-size-6">Width: <strong>13.018 px</strong></div>
+            <div class="is-size-6">Height: <strong>8.328 px</strong></div>
+            <div class="is-size-6">Total resolution: <strong>108.41 Megapixels</strong></div>
+        </div>
+        <div id="sanAntonioAMiramar-overlay">
+            <div class="is-size-6">Scans: <strong>42</strong></div>
+            <div class="is-size-6">Width: <strong>14.210 px</strong></div>
+            <div class="is-size-6">Height: <strong>19.776 px</strong></div>
+            <div class="is-size-6">Total resolution: <strong>281.02 Megapixels</strong></div>
+        </div>
+    </div>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>

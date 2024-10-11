@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#maps-viewer {
+    height: 100%;
+    width: 100%;
+}
+
+.referencestrip {
+    transition: margin 0.15s ease-out;
+    height: auto!important;
+    position: absolute!important;
+    outline: 0;
+}
+
+.referencestrip .overlay {
+    display: none!important;
+}
+
+.overlay {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.map-label {
+    width: 100%;
+    font-weight: 600;
+    padding: 8px;
+    opacity: 0.6;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.fixed-row {
+    flex: 0 0 auto;
+}
+
+.fill-row {
+    flex: 1 1 auto;
+    overflow: auto;
+}
